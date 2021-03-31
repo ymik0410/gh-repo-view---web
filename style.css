@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@300&display=swap');
+
+body {
+  background-color: #dff5f1;
+  font-family: 'Roboto', sans-serif;
+  color: #2e3345;
+  font-size: 14px;
+  line-height: 28px;
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #433554;
+}
+
+img {
+  width: 150px;
+  border-radius: 50%;
+}
+
+a {
+  text-decoration: none;
+  color: #60769e;
+}
+
+a:hover {
+  background-color: #409980;
+}
+
+h3 {
+  color: #345740;
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+div {
+  display: block;
+}
+
+.card {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px gray;
+  text-align: center;
+  margin: 20px;
+  border-radius: 2%;
+}
+
+.btn {
+  background-color: #60769e;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 6px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 10px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+  font-size: 30px;
+}
+.hover-green:hover {
+  color: #409980;
+  background-color: white;
+}
+
+ul {
+  display: block;
+}
+
+p {
+  display: block;
+  margin: 30px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
